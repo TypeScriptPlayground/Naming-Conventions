@@ -1,10 +1,11 @@
 [L001]: https://en.wikipedia.org/wiki/Camel_case
+[L002]: https://en.wikipedia.org/wiki/Snake_case
 
 # Naming-Conventions
 ## Basics
 ### Filename
 
-All filenames are written in snake case style
+All filenames are written in [snakecase][L002] style
 ```
 example_function.ts
 ```
@@ -30,7 +31,18 @@ In the file name, letters from lower case `a-z` and `_` are allowed.
 <br>
 
 ## Variables
+All variables are written in [camelcase][L001].
 
+> <picture>
+>   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/example.svg">
+>   <img alt="Example" src="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/dark-theme/example.svg">
+> </picture><br>
+>
+> For example, if we want to write a function that reads a text file, we would name the file `read_text_file.ts`. In the file we would then export a function which looks like this.
+> ```ts
+> const fooBar = 'Hello World';
+> let barFoo : number;
+> ```
 
 <br>
 
