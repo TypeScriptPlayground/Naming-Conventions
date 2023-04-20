@@ -107,10 +107,10 @@ Enum names are written in [camelcase][L001]. Enum variables are written in [all 
 
 <br>
 
-## Statement: `function`
+### `function`
 Function names are written in [camelcase][L001].
 
-### Normal function: `function foo(param : string) {}`
+#### Normal function: `function foo(param : string) {}`
 
 > <picture>
 >   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/example.svg">
@@ -123,8 +123,8 @@ Function names are written in [camelcase][L001].
 > }
 > ```
 
-### Anonymous function: `function() {}`
-### Arrow function: `() => {}`
+#### Anonymous function: `function() {}`
+#### Arrow function: `() => {}`
 
 
 
