@@ -1,5 +1,6 @@
 [L001]: https://en.wikipedia.org/wiki/Camel_case
 [L002]: https://en.wikipedia.org/wiki/Snake_case
+[L003]: https://en.wikipedia.org/wiki/All_caps
 
 # Naming-Conventions
 ## Basics
@@ -22,7 +23,7 @@ In the file name, letters from lower case `a-z` and `_` are allowed.
 >
 > For example, if we want to write a function that reads a text file, we would name the file `read_text_file.ts`. In the file we would then export a function which looks like this.
 > ```ts
-> export default function readTextFile() {
+> export default function readTextFile() : string {
 >   //...
 > }
 > ```
@@ -38,7 +39,6 @@ All variables are written in [camelcase][L001].
 >   <img alt="Example" src="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/dark-theme/example.svg">
 > </picture><br>
 >
-> For example, if we want to write a function that reads a text file, we would name the file `read_text_file.ts`. In the file we would then export a function which looks like this.
 > ```ts
 > const fooBar = 'Hello World';
 > let barFoo : number;
@@ -71,8 +71,10 @@ When a value is assigned to a variable in an object, **no** space is inserted be
 > };
 > ```
 
+<br>
+
 ### `interface`
-Interface names are started with a capital letter. The rest of the name is written in [camelcase][L001].
+Interface names are started with a capital letter. The rest of the name is written in [camelcase][L001]. Variable definitions are separated by a comma.
 
 > <picture>
 >   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/example.svg">
@@ -81,12 +83,27 @@ Interface names are started with a capital letter. The rest of the name is writt
 >
 > ```ts
 > interface FooBar {
->   //...
+>   text : string,
+>   value : number
 > }
 > ```
 
-### `enum`
+<br>
 
+### `enum`
+Enum names are written in [camelcase][L001]. Enum variables are written in [all caps][L003].
+
+> <picture>
+>   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/example.svg">
+>   <img alt="Example" src="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/dark-theme/example.svg">
+> </picture><br>
+>
+> ```ts
+> enum textTypes {
+>   TEXT_A,
+>   TEXT_B
+> }
+> ```
 
 <br>
 
