@@ -2,7 +2,7 @@
 [L002]: https://en.wikipedia.org/wiki/Snake_case
 [L003]: https://en.wikipedia.org/wiki/All_caps
 
-# Naming-Conventions
+# Naming-Conventions for all my TypeScript projects
 ## Basics
 ### Filename
 All filenames are written in [snakecase][L002] style. In the file name, letters from lower case `a-z` and `_` are allowed. Use numbers `0-9` only if it is necessary. For example, if the function is called `encodeBase64`.
