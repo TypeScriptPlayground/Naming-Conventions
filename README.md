@@ -14,7 +14,7 @@ example_function.ts
 ### Content
 A file should have only one main `function`/`class`/`object` which is exported. The `function`/`class`/`object` should then be named exactly like the file name, in [camelcase][L001]. Helper `functions`/`objects` are allowed.
 
-In the file name, letters from lower case `a-z` and `_` are allowed. Use numbers `0-9` only if it is necessary. For example, if the file is called `base64.ts`.
+In the file name, letters from lower case `a-z` and `_` are allowed. Use numbers `0-9` only if it is necessary. For example, if the file is called `base64.ts`. Never use numbers to sort folders. For example, `01_api`, `02_components`, ...
 
 > <picture>
 >   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/example.svg">
