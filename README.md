@@ -27,7 +27,7 @@ A file should have only one main `function`/`class`/`object` which is exported. 
 >   //...
 > }
 > ```
-> Filename `read_text_file.ts` becomes function name `readTextFile()`.
+> Function name `readTextFile()` becomes Filename `read_text_file.ts`.
 
 <br>
 
