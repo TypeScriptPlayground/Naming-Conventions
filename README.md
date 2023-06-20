@@ -6,9 +6,15 @@
 ## Basics
 ### Filename
 All filenames are written in [snakecase][L002] style. In the file name, letters from lower case `a-z` and `_` are allowed. Use numbers `0-9` only if it is necessary. For example, if the function is called `encodeBase64`.
-```
-example_function.ts
-```
+> <picture>
+>   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/example.svg">
+>   <img alt="Example" src="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/dark-theme/example.svg">
+> </picture><br>
+>
+> ```
+> example_function.ts
+> ```
+
 
 ### Folder
 In the folder name, letters from lower case `a-z` and `_` are allowed. Never use numbers to sort folders. For example, `01_help`, `02_error`, `03_components`, ...
