@@ -111,6 +111,22 @@ Enum names are written in [camelcase][L001]. Enum variables are written in [all 
 > }
 > ```
 
+Avoid using enums as presets for default values. Use objects instead.
+
+> <picture>
+>   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/example.svg">
+>   <img alt="Example" src="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/dark-theme/example.svg">
+> </picture><br>
+>
+> ```ts
+> export const textTypes = {
+>   TEXT_A: 0,
+>   TEXT_B: 1
+> } as const
+> 
+> export typeof TextType[keyof typeof textTypes]
+> ```
+
 <br>
 
 ### function
