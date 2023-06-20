@@ -99,7 +99,7 @@ Interface names are started with a capital letter. The rest of the name is writt
 <br>
 
 ### enum
-Enum names are written in [camelcase][L001]. Enum variables are written in [all caps][L003].
+Enum names are written in [camelcase][L001]. Enum variables are written in [ALL_CAPS][L003].
 
 > <picture>
 >   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/example.svg">
