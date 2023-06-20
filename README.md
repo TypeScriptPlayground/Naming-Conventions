@@ -11,7 +11,7 @@ example_function.ts
 ```
 
 ### Folder
-In the folder name, letters from lower case `a-z` and `_` are allowed. Never use numbers to sort folders. For example, `01_help`, `02_error`, `02_components`, ...
+In the folder name, letters from lower case `a-z` and `_` are allowed. Never use numbers to sort folders. For example, `01_help`, `02_error`, `03_components`, ...
 
 ### Filecontent
 A file should have only one main `function`/`class`/`object` which is exported. The `function`/`class`/`object` should then be named exactly like the file name, in [camelcase][L001]. Helper `functions`/`objects` are allowed.
