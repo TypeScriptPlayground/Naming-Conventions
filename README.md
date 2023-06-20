@@ -20,7 +20,7 @@ All filenames are written in [snakecase][L002] style. In the file name, letters 
 In the folder name, letters from lower case `a-z` and `_` are allowed. Never use numbers to sort folders. For example, `01_help`, `02_error`, `03_components`, ...
 
 ### Filecontent
-A file should have only one main `function`/`class`/`object` which is exported. The `function`/`class`/`object` should then be named exactly like the file name, in [camelCase][L001]. Helper `functions`/`objects` for the main function that gets exportet are allowed.
+A file should have only one main `function`/`class`/`object`/`type` which is exported. The `function`/`class`/`object` should then be named exactly like the file name, in [camelCase][L001]. Helper `functions`/`objects` for the main function that gets exportet are allowed. It is also allowed to export an object and a type as long as the type is created from the object. You can look up the reason for this under [enum](#enum).
 
 > <picture>
 >   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/example.svg">
@@ -111,7 +111,7 @@ Enum names are written in [camelcase][L001]. Enum variables are written in [all 
 > }
 > ```
 
-Avoid using enums as presets for default values. Use objects instead.
+Avoid using enums as presets for default values. Use objects instead. Always export these objects `as const`.
 
 > <picture>
 >   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/example.svg">
