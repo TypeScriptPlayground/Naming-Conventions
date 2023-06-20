@@ -79,7 +79,7 @@ When a value is assigned to a variable in an object, **no** space is inserted be
 
 <br>
 
-### `interface`
+### interface
 Interface names are started with a capital letter. The rest of the name is written in [camelcase][L001]. Variable definitions are separated by a comma.
 
 > <picture>
@@ -96,7 +96,7 @@ Interface names are started with a capital letter. The rest of the name is writt
 
 <br>
 
-### `enum`
+### enum
 Enum names are written in [camelcase][L001]. Enum variables are written in [all caps][L003].
 
 > <picture>
@@ -113,7 +113,7 @@ Enum names are written in [camelcase][L001]. Enum variables are written in [all 
 
 <br>
 
-### `function`
+### function
 Function names are written in [camelcase][L001].
 
 #### Normal function: `function foo(param : string) {}`
