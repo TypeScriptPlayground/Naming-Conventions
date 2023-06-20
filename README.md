@@ -12,7 +12,7 @@ All filenames are written in [snakecase][L002] style. In the file name, letters 
 > </picture><br>
 >
 > ```
-> example_function.ts
+> encode_base64.ts
 > ```
 
 
