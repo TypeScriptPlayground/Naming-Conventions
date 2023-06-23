@@ -98,7 +98,7 @@ Object names are written in [camelcase][L001]. The same is applied to object mem
 > const obj = {text: 'Hello World!'}
 > ```
 
-If there is more than one member in the object, each member must be wrapped to a new line.
+If there is more than one member in the object, each member must be wrapped to a new line. It is also allowed to wrap the member of an object to a new line if the object has only one member.
 
 > <picture>
 >   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/example.svg">
