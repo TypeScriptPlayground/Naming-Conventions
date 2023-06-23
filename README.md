@@ -22,7 +22,7 @@ All filenames are written in [snakecase][L002] style. In the file name, letters 
 In the folder name, letters from lower case `a-z` and `_` are allowed. Never use numbers to sort folders. For example, `01_help`, `02_error`, `03_components`, ...
 
 ### Filecontent
-A file should have only one main `function`/`class`/`object`/`type` which is exported. The `function`/`class`/`object` should then be named exactly like the file name, in [camelCase][L001]. Helper `functions`/`objects` for the main function that gets exportet are allowed. It is also allowed to export an object and a type as long as the type is created from the object. You can look up the reason for this under [enum](#enum).
+A file should have only one main `function`/`class`/`object`/`type` which is exported. The `function`/`class`/`object` should then be named exactly like the file name, in [camelCase][L001]. 
 
 > <picture>
 >   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/example.svg">
@@ -36,6 +36,11 @@ A file should have only one main `function`/`class`/`object`/`type` which is exp
 > }
 > ```
 > Function name `readTextFile()` becomes Filename `read_text_file.ts`.
+
+Helper `functions`/`objects` for the main function that gets exportet are allowed. It is also allowed to export an object and a type as long as the type is created from the object. You can look up the reason for this under [enum](#enum).
+
+A file may contain a maximum of 100 lines of code and a maximum of 3-4 indentations. If the number of lines or the number of indentations is exceeded, then the code must be outsourced to individual functions in separate files. This keeps the code within a file more readable. This rule does not apply to data structures as for example `json` files.
+
 
 <br>
 
