@@ -139,7 +139,7 @@ Avoid using enums as presets for default values. Use objects instead. Always exp
 ### function
 Function names are written in [camelcase][L001].
 
-#### Normal function: `function foo(param : string) {}`
+#### Normal function: `function func(param : string) {}`
 
 > <picture>
 >   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/example.svg">
@@ -147,7 +147,7 @@ Function names are written in [camelcase][L001].
 > </picture><br>
 >
 > ```ts
-> function foo(param : string) {
+> function func(param : string) {
 >   //...
 > }
 > ```
