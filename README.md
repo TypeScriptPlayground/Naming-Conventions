@@ -86,6 +86,34 @@ When a value is assigned to a variable in an object, **no** space is inserted be
 
 <br>
 
+### object
+Object names are written in [camelcase][L001]. The same is applied to object members. 
+
+> <picture>
+>   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/example.svg">
+>   <img alt="Example" src="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/dark-theme/example.svg">
+> </picture><br>
+>
+> ```ts
+> const obj = {text: 'Hello World!'}
+> ```
+
+If there is more than one member in the object, each member must be wrapped to a new line.
+
+> <picture>
+>   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/example.svg">
+>   <img alt="Example" src="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/dark-theme/example.svg">
+> </picture><br>
+>
+> ```ts
+> const obj = {
+>   text: 'Hello World!',
+>   value: 42
+> }
+> ```
+
+<br>
+
 ### interface
 Interface names are started with a capital letter. The rest of the name is written in [camelcase][L001]. Variable definitions are separated by a comma.
 
