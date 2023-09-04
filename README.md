@@ -1,6 +1,7 @@
 [L001]: https://en.wikipedia.org/wiki/Camel_case
 [L002]: https://en.wikipedia.org/wiki/Snake_case
 [L003]: https://en.wikipedia.org/wiki/All_caps
+[L004]: https://en.wikipedia.org/wiki/Pascal_case
 
 [L010]: https://www.typescriptlang.org/docs/handbook/declaration-files/templates/module-d-ts.html
 
@@ -117,7 +118,7 @@ If there is more than one member in the object, each member must be wrapped to a
 <br>
 
 ### interface
-Interface names are started with a capital letter. The rest of the name is written in [camelcase][L001]. Variable definitions are separated by a comma. Interfaces are always exported in a [`.d.ts`][L010] file.
+Interface names are started with a capital letter. The rest of the name is written in [camelcase][L001]. Also known as [PascalCase][L004]. Variable definitions are separated by a comma. Interfaces are always exported in a [`.d.ts`][L010] file.
 
 > <picture>
 >   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/example.svg">
