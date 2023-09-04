@@ -2,6 +2,8 @@
 [L002]: https://en.wikipedia.org/wiki/Snake_case
 [L003]: https://en.wikipedia.org/wiki/All_caps
 
+[L010]: https://www.typescriptlang.org/docs/handbook/declaration-files/templates/module-d-ts.html
+
 # Naming-Conventions
 These are some rules for my TypeScript projects.
 
@@ -115,7 +117,7 @@ If there is more than one member in the object, each member must be wrapped to a
 <br>
 
 ### interface
-Interface names are started with a capital letter. The rest of the name is written in [camelcase][L001]. Variable definitions are separated by a comma.
+Interface names are started with a capital letter. The rest of the name is written in [camelcase][L001]. Variable definitions are separated by a comma. Interfaces are always exported in a [`.d.ts`][L010] file.
 
 > <picture>
 >   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/example.svg">
