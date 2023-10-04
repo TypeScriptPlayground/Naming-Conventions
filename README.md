@@ -168,9 +168,10 @@ Avoid using enums as presets for default values. Use objects instead. Always exp
 <br>
 
 ### function
-Function names are written in [camelcase][L001].
+Function names are written in [camelcase][L001]. If the function has more than one parameter or the parameter exceeds the maximum character limit for a line then the line is wrapped.
 
 #### Normal function: `function func(param : string) {}`
+No space is inserted between the function name and the parentheses. A space is inserted between the brackets and the curly brackets.
 
 > <picture>
 >   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/example.svg">
@@ -178,13 +179,37 @@ Function names are written in [camelcase][L001].
 > </picture><br>
 >
 > ```ts
-> function func(param : string) {
+> function fooBar(param : string) {
 >   //...
 > }
 > ```
 
 #### Anonymous function: `function() {}`
-#### Arrow function: `() => {}`
+No space is inserted between the `function` keyword and the parentheses. A space is inserted between the brackets and the curly brackets.
 
+> <picture>
+>   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/example.svg">
+>   <img alt="Example" src="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/dark-theme/example.svg">
+> </picture><br>
+>
+> ```ts
+> const fooBar = function(param : string) {
+>   //...
+> }
+> ```
+
+#### Arrow function: `() => {}`
+A space is inserted between the parentheses and the arrow. A space is also inserted between the arrow and the curly brackets.
+
+> <picture>
+>   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/example.svg">
+>   <img alt="Example" src="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/dark-theme/example.svg">
+> </picture><br>
+>
+> ```ts
+> const fooBar = (param : string) => {
+>   //...
+> }
+> ```
 
 
