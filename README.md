@@ -59,8 +59,8 @@ All variables are written in [camelcase][L001].
 > </picture><br>
 >
 > ```ts
-> const fooBar = 'Hello World';
-> let barFoo : number;
+> const greeting = 'Hello World';
+> let age : number;
 > ```
 
 <br>
@@ -85,9 +85,7 @@ When a value is assigned to a variable in an object, **no** space is inserted be
 > </picture><br>
 >
 > ```ts
-> const object = {
->   key: 'Text'
-> };
+> const object = {key: 'Text'};
 > ```
 
 <br>
@@ -101,10 +99,10 @@ Object names are written in [camelcase][L001]. The same is applied to object mem
 > </picture><br>
 >
 > ```ts
-> const obj = {text: 'Hello World!'}
+> const messages = {greeting: 'Hello World!'}
 > ```
 
-If there is more than one member in the object, each member must be wrapped to a new line. It is also allowed to wrap the member of an object to a new line if the object has only one member.
+If the object has more than one key or the key name exceeds the maximum [character limit](#character-limit) for a line then the line needs to be wrapped. It is also allowed to wrap the key of an object to a new line if the object has only one key.
 
 > <picture>
 >   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/example.svg">
@@ -112,9 +110,9 @@ If there is more than one member in the object, each member must be wrapped to a
 > </picture><br>
 >
 > ```ts
-> const obj = {
->   text: 'Hello World!',
->   value: 42
+> const messages = {
+>   greeting: 'Hello World!',
+>   count: 42
 > }
 > ```
 
