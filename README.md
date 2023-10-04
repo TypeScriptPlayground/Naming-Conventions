@@ -4,6 +4,7 @@
 [L004]: https://en.wikipedia.org/wiki/Pascal_case
 
 [L010]: https://www.typescriptlang.org/docs/handbook/declaration-files/templates/module-d-ts.html
+[L011]: https://jsdoc.app/
 
 # Naming-Conventions
 These are some rules for my TypeScript projects.
@@ -47,6 +48,11 @@ A file may contain a maximum of **100** lines of code (excluding comments and wh
 
 #### Character limit
 The maximum character limit for a line is **120** characters.
+
+<br>
+
+## Comments
+All TypeScript files are documented in the [JSDoc][L011] format.
 
 <br>
 
