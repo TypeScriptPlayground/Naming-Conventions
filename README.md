@@ -169,10 +169,10 @@ Avoid using enums as presets for default values. Use objects instead. Always exp
 <br>
 
 ### function
-Function names are written in [camelcase][L001]. If the function has more than one parameter or the parameter name exceeds the maximum [character limit](#character-limit) for a line then the line needs to be wrapped. The same rule also applies to the content of the function. Always specify a return value for the function. The return value is specified in the same form as for a [type](##types).
+Function names are written in [camelcase][L001]. If the function has more than one parameter or the parameter name exceeds the maximum [character limit](#character-limit) for a line then the line needs to be wrapped. The same rule also applies to the content of the function. Always specify a return value for the function. The return value is specified in the same form as for a [type](#types).
 
 #### Normal function: `function functionName() {}`
-No space is inserted between the function name and the parentheses. A space is inserted between the brackets and the curly brackets.
+No space is inserted between the function name and the parentheses. A space is inserted between the return type and the curly brackets.
 
 > <picture>
 >   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/example.svg">
@@ -186,7 +186,7 @@ No space is inserted between the function name and the parentheses. A space is i
 > ```
 
 #### Anonymous function: `function() {}`
-No space is inserted between the `function` keyword and the parentheses. A space is inserted between the brackets and the curly brackets.
+No space is inserted between the `function` keyword and the parentheses. A space is inserted between the return type and the curly brackets.
 
 > <picture>
 >   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/example.svg">
