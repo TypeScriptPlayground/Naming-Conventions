@@ -169,9 +169,9 @@ Avoid using enums as presets for default values. Use objects instead. Always exp
 <br>
 
 ### function
-Function names are written in [camelcase][L001]. If the function has more than one parameter or the parameter name exceeds the maximum [character limit](#character-limit) for a line then the line needs to be wrapped. The same rule also applies to the content of the function.
+Function names are written in [camelcase][L001]. If the function has more than one parameter or the parameter name exceeds the maximum [character limit](#character-limit) for a line then the line needs to be wrapped. The same rule also applies to the content of the function. Always specify a return value for the function. The return value is specified in the same form as for a [type](##types).
 
-#### Normal function: `function func(param : string) {}`
+#### Normal function: `function functionName() {}`
 No space is inserted between the function name and the parentheses. A space is inserted between the brackets and the curly brackets.
 
 > <picture>
@@ -180,7 +180,7 @@ No space is inserted between the function name and the parentheses. A space is i
 > </picture><br>
 >
 > ```ts
-> function fooBar(param : string) {
+> function functionName(param : string) : void {
 >   //...
 > }
 > ```
@@ -194,7 +194,7 @@ No space is inserted between the `function` keyword and the parentheses. A space
 > </picture><br>
 >
 > ```ts
-> const fooBar = function(param : string) {
+> const fooBar = function(param : string) : void {
 >   //...
 > }
 > ```
@@ -208,7 +208,7 @@ A space is inserted between the parentheses and the arrow. A space is also inser
 > </picture><br>
 >
 > ```ts
-> const fooBar = (param : string) => {
+> const fooBar = (param : string) : void => {
 >   //...
 > }
 > ```
