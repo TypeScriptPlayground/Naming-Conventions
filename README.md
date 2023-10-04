@@ -121,7 +121,7 @@ If there is more than one member in the object, each member must be wrapped to a
 <br>
 
 ### interface
-Interface names are started with a capital letter. The rest of the name is written in [camelcase][L001]. Also known as [PascalCase][L004]. Variable definitions are separated by a comma. Interfaces are always exported in a [`.d.ts`][L010] file.
+Interface names are started with a capital letter. The rest of the name is written in [camelcase][L001]. Also known as [PascalCase][L004]. Variable definitions are separated by a comma. Interfaces are always exported in a [`.d.ts`][L010] file. Each key in an interface needs to be on a separate line.
 
 > <picture>
 >   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/example.svg">
@@ -138,7 +138,7 @@ Interface names are started with a capital letter. The rest of the name is writt
 <br>
 
 ### enum
-Enum names are written in [camelcase][L001]. Enum variables are written in [all caps][L003].
+Enum names are written in [camelcase][L001]. Enum variables are written in [all caps][L003]. Each key in an enum needs to be on a separate line.
 
 > <picture>
 >   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/example.svg">
@@ -171,7 +171,7 @@ Avoid using enums as presets for default values. Use objects instead. Always exp
 <br>
 
 ### function
-Function names are written in [camelcase][L001]. If the function has more than one parameter or the parameter exceeds the maximum character limit for a line then the line is wrapped.
+Function names are written in [camelcase][L001]. If the function has more than one parameter or the parameter name exceeds the maximum [character limit](#character-limit) for a line then the line needs to be wrapped. The same rule also applies to the content of the function.
 
 #### Normal function: `function func(param : string) {}`
 No space is inserted between the function name and the parentheses. A space is inserted between the brackets and the curly brackets.
