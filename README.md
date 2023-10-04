@@ -25,7 +25,7 @@ All filenames are written in [snakecase][L002] style. In the file name, letters 
 In the folder name, letters from lower case `a-z` and `_` are allowed. **Never** use numbers to sort folders. For example, `01_help`, `02_error`, `03_components`, ...
 
 ### Filecontent
-A file should have only one main `function`/`class`/`object`/`type` which is exported. The `function`/`class`/`object`/`type` should then be named exactly like the file name, in [camelcase][L001]. 
+A file should have only one main `function`/`class` which is exported. The `function`/`class` should then be named exactly like the file name, in [camelcase][L001]. 
 
 > <picture>
 >   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/example.svg">
