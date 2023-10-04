@@ -40,7 +40,7 @@ A file should have only one main `function`/`class` which is exported. The `func
 > ```
 > Function name `readTextFile()` becomes Filename `read_text_file.ts`.
 
-#### Helpers/Unitlities
+#### Helpers/Untilities
 Helper `functions`/`objects` for the main function that gets exportet are allowed. It is also allowed to export an object and a type as long as the type is created from the object. You can look up the reason for this under [enum](#enum).
 
 A file may contain a maximum of **100** lines of code (excluding comments and whitespace between lines) and a maximum of **4** indentations. If the number of lines or the number of indentations is exceeded, then the code must be refactores to individual functions in separate files. This keeps the code within a file more readable. This rule does not apply to data structures as for example `json` files.
