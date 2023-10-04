@@ -51,7 +51,7 @@ The maximum character limit for a line is **120** characters.
 
 <br>
 
-## Comments
+## Documentation/Comments
 All TypeScript files are documented in the [JSDoc][L011] format.
 
 <br>
