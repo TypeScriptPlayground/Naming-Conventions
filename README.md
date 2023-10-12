@@ -17,6 +17,7 @@ All filenames are written in [snakecase][L002] style. In the file name, letters 
 >   <img alt="Example" src="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/dark-theme/example.svg">
 > </picture><br>
 >
+> The filename would look like this:
 > ```
 > encode_base64.ts
 > ```
