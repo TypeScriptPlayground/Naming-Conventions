@@ -45,10 +45,10 @@ A file should have only one main `function`/`class` which is exported. The `func
 Helper `functions`/`objects` for the main function that gets exportet are allowed. It is also allowed to export an object and a type as long as the type is created from the object. You can look up the reason for this under [enum](#enum).
 
 #### Vertical character limit
-A file may contain a maximum of **[30](README.md##)** lines of code (excluding comments and whitespace between lines). This is for increasing readability. If the number of lines or the number of indentations is exceeded, then the code must be refactored to individual functions in separate files. This rule does not apply to data structures as for example `json` files.
+A file may contain a maximum of **<ins>30</ins>** lines of code (excluding comments and whitespace between lines). This is for increasing readability. If the number of lines or the number of indentations is exceeded, then the code must be refactored to individual functions in separate files. This rule does not apply to data structures as for example `json` files.
 
 #### Horizontal character limit
-The maximum character limit for a line is **[120](README.md##)** characters and a maximum of **[4](README.md##)** indentations.
+The maximum character limit for a line is **<ins>120</ins>** characters and a maximum of **<ins>4</ins>** indentations.
 
 <br>
 
