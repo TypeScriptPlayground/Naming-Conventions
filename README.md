@@ -51,8 +51,12 @@ A file may contain a maximum of **<ins>30</ins>** lines of code (excluding comme
 #### Horizontal character limit
 The maximum character limit for a line is **<ins>120</ins>** characters and a maximum of **<ins>4</ins>** indentations.
 
+<br>
+
 ## Documentation/Comments
 All TypeScript files are documented in the [JSDoc][L011] format.
+
+<br>
 
 ## Variables/Types
 All variables are written in [camelcase][L001]. You can read more about that in the [`let`/`const`/`var`](#letconstvar) section.
@@ -89,6 +93,8 @@ When a value is assigned to a variable in an object, **no** space is inserted be
 > const object = {key: 'Text'};
 > ```
 
+<br>
+
 ## Declaration-Statements
 
 ### `let`/`const`/`var`
@@ -117,7 +123,7 @@ If the object has more than one key or the key name exceeds the maximum [charact
 > }
 > ```
 
-If you declare a variable whose content does not change, then this variable is written in [ALL_CAPS][L003].
+If you declare a variable whose content does not change, then this variable is written in [ALL_CAPS][L003]. This rule does not apply to objects described in other structures, like "enum like objects" in the [enum][#enum] section.
 
 > <picture>
 >   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/example.svg">
@@ -158,7 +164,7 @@ Enum names are written in [camelcase][L001]. Enum variables are written in [all 
 > }
 > ```
 
-Avoid using enums as presets for default values. Use objects instead. Always export these objects `as const`.
+Avoid using enums as presets for default values. Use enum like objects instead. Always export these objects `as const`.
 
 > <picture>
 >   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/example.svg">
