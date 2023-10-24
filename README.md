@@ -109,7 +109,7 @@ When a value is assigned to a variable in an object, **no** space is inserted be
 > const messageVariants = {greetingMessage: 'Hey, nice to see you.'}
 > ```
 
-If the object has more than one key or the key name exceeds the maximum [character limit](#character-limit) for a line then the line needs to be wrapped. It is also allowed to wrap the key of an object to a new line if the object has only one key.
+If the object has more than one key or the key name exceeds the maximum [character limit](#character-limit) for a line then the line needs to be wrapped.
 
 > <picture>
 >   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/example.svg">
