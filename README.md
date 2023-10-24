@@ -55,7 +55,7 @@ The maximum character limit for a line is **<ins>120</ins>** characters and a ma
 All TypeScript files are documented in the [JSDoc][L011] format.
 
 ## Variables/Types
-All variables are written in [camelcase][L001].
+All variables are written in [camelcase][L001]. You can read more about that in the [`let`/`const`/`var`](#letconstvar) section.
 
 > <picture>
 >   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/example.svg">
@@ -115,6 +115,17 @@ If the object has more than one key or the key name exceeds the maximum [charact
 >   greetingMessage: 'Hey, nice to see you.',
 >   goodbyeMessage: 'Bye!'
 > }
+> ```
+
+If you declare a variable whose content does not change, then this variable is written in [ALL_CAPS][L003].
+
+> <picture>
+>   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/example.svg">
+>   <img alt="Example" src="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/dark-theme/example.svg">
+> </picture><br>
+>
+> ```ts
+> const URL = 'https://example.com';
 > ```
 
 ### `interface`
