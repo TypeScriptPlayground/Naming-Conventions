@@ -10,6 +10,7 @@
 These are some rules for my TypeScript projects.
 
 ## Directory
+
 ### Filename
 All filenames are written in [snakecase][L002] style. In the file name, letters from lower case `a-z` and `_` are allowed. Use numbers `0-9` only if it is necessary. For example, if the function is called `encodeBase64`.
 > <picture>
@@ -21,7 +22,6 @@ All filenames are written in [snakecase][L002] style. In the file name, letters 
 > ```
 > encode_base64.ts
 > ```
-
 
 ### Foldername
 In the folder name, letters from lower case `a-z` and `_` are allowed. **Never** use numbers to sort folders. For example, `01_help`, `02_error`, `03_components`, ...
@@ -51,15 +51,10 @@ A file may contain a maximum of **<ins>30</ins>** lines of code (excluding comme
 #### Horizontal character limit
 The maximum character limit for a line is **<ins>120</ins>** characters and a maximum of **<ins>4</ins>** indentations.
 
-<br>
-
 ## Documentation/Comments
 All TypeScript files are documented in the [JSDoc][L011] format.
 
-<br>
-
 ## Variables
-
 All variables are written in [camelcase][L001].
 
 > <picture>
@@ -97,8 +92,7 @@ When a value is assigned to a variable in an object, **no** space is inserted be
 ## Declaration-Statements
 
 ### let/const/var
-
-Object names are written in [camelcase][L001]. The same is applied to object members. 
+Names are written in [camelcase][L001]. The same is applied to members of objects.
 
 > <picture>
 >   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/example.svg">
@@ -106,7 +100,7 @@ Object names are written in [camelcase][L001]. The same is applied to object mem
 > </picture><br>
 >
 > ```ts
-> const messages = {greeting: 'Hello World!'}
+> const messageVariants = {greetingMessage: 'Hey, nice to see you.'}
 > ```
 
 If the object has more than one key or the key name exceeds the maximum [character limit](#character-limit) for a line then the line needs to be wrapped. It is also allowed to wrap the key of an object to a new line if the object has only one key.
@@ -117,13 +111,11 @@ If the object has more than one key or the key name exceeds the maximum [charact
 > </picture><br>
 >
 > ```ts
-> const messages = {
->   greeting: 'Hello World!',
->   count: 42
+> const messageVariants = {
+>   greetingMessage: 'Hey, nice to see you.',
+>   goodbyeMessage: 'Bye!'
 > }
 > ```
-
-<br>
 
 ### interface
 Interface names are started with a capital letter. The rest of the name is written in [camelcase][L001]. Also known as [PascalCase][L004]. Variable definitions are separated by a comma. Interfaces are always exported in a [`.d.ts`][L010] file. Each key in an interface needs to be on a separate line.
@@ -139,8 +131,6 @@ Interface names are started with a capital letter. The rest of the name is writt
 >   value : number
 > }
 > ```
-
-<br>
 
 ### enum
 Enum names are written in [camelcase][L001]. Enum variables are written in [all caps][L003]. Each key in an enum needs to be on a separate line.
@@ -172,8 +162,6 @@ Avoid using enums as presets for default values. Use objects instead. Always exp
 > 
 > export typeof TextType[keyof typeof textTypes]
 > ```
-
-<br>
 
 ### function
 Function names are written in [camelcase][L001]. If the function has more than one parameter or the parameter name exceeds the maximum [character limit](#character-limit) for a line then the line needs to be wrapped. The same rule also applies to the content of the function. Always specify a return value for the function. The return value is specified in the same form as for a [type](#types).
@@ -220,4 +208,6 @@ A space is inserted between the parentheses and the arrow. A space is also inser
 > }
 > ```
 
+<br>
 
+<br>
