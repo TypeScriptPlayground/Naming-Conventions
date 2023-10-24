@@ -123,7 +123,7 @@ If the object has more than one key or the key name exceeds the maximum [charact
 > }
 > ```
 
-If you declare a variable whose content does not change, then this variable is written in [ALL_CAPS][L003]. This rule does not apply to objects described in other structures, like "enum like objects" in the [enum][#enum] section.
+If you declare a variable whose content does not change, then this variable is written in [ALL_CAPS][L003]. This rule does not apply to objects described in other structures, like "enum like objects" in the [enum](#enum) section.
 
 > <picture>
 >   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/example.svg">
