@@ -59,6 +59,7 @@ All TypeScript files are documented in the [JSDoc][L011] format.
 <br>
 
 ## Variables
+
 All variables are written in [camelcase][L001].
 
 > <picture>
@@ -71,9 +72,6 @@ All variables are written in [camelcase][L001].
 > let age : number;
 > ```
 
-<br>
-
-## Types
 Spaces are inserted between a variable and the colon and between the colon and a type. 
 
 > <picture>
@@ -96,9 +94,10 @@ When a value is assigned to a variable in an object, **no** space is inserted be
 > const object = {key: 'Text'};
 > ```
 
-<br>
+## Declaration-Statements
 
-### object
+### let/const/var
+
 Object names are written in [camelcase][L001]. The same is applied to object members. 
 
 > <picture>
