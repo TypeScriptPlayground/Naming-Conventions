@@ -186,7 +186,7 @@ Avoid using enums as presets for default values. Use enum like objects instead. 
 ### `function`
 Function names are written in [camelcase][L001]. If the function has more than one parameter or the parameter name exceeds the maximum [character limit](#character-limit) for a line then the line needs to be wrapped. The same rule also applies to the content of the function. Always specify a return value for the function. The return value is specified in the same form as for a [type](#types).
 
-#### Named function: `function functionName() {}`
+#### Named functions
 No space is inserted between the function name and the parentheses. A space is inserted between the return type and the curly brackets.
 
 > <picture>
@@ -200,7 +200,7 @@ No space is inserted between the function name and the parentheses. A space is i
 > }
 > ```
 
-#### Anonymous function: `function() {}`
+#### Anonymous functions
 No space is inserted between the `function` keyword and the parentheses. A space is inserted between the return type and the curly brackets.
 
 > <picture>
@@ -214,7 +214,7 @@ No space is inserted between the `function` keyword and the parentheses. A space
 > }
 > ```
 
-#### Arrow function: `() => {}`
+#### Arrow functions
 A space is inserted between the parentheses and the arrow. A space is also inserted between the arrow and the curly brackets.
 
 > <picture>
