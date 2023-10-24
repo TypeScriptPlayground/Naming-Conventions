@@ -149,6 +149,8 @@ Interface names are started with a capital letter. The rest of the name is writt
 > }
 > ```
 
+### `type`
+
 ### `enum`
 Enum names are written in [camelcase][L001]. Enum variables are written in [all caps][L003]. Each key in an enum needs to be on a separate line.
 
@@ -226,6 +228,8 @@ A space is inserted between the parentheses and the arrow. A space is also inser
 > ```
 
 ### `class`
+
+### `namespace`
 
 <br>
 
