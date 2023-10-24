@@ -54,7 +54,7 @@ The maximum character limit for a line is **<ins>120</ins>** characters and a ma
 ## Documentation/Comments
 All TypeScript files are documented in the [JSDoc][L011] format.
 
-## Variables
+## Variables/Types
 All variables are written in [camelcase][L001].
 
 > <picture>
@@ -91,8 +91,8 @@ When a value is assigned to a variable in an object, **no** space is inserted be
 
 ## Declaration-Statements
 
-### let/const/var
-Names are written in [camelcase][L001]. The same is applied to members of objects.
+### `let`/`const`/`var`
+`let`/`const` names are written in [camelcase][L001]. The same is applied to members of objects. Avoid the use of `var`, use `let`/`const` instead.
 
 > <picture>
 >   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/example.svg">
@@ -117,7 +117,7 @@ If the object has more than one key or the key name exceeds the maximum [charact
 > }
 > ```
 
-### interface
+### `interface`
 Interface names are started with a capital letter. The rest of the name is written in [camelcase][L001]. Also known as [PascalCase][L004]. Variable definitions are separated by a comma. Interfaces are always exported in a [`.d.ts`][L010] file. Each key in an interface needs to be on a separate line.
 
 > <picture>
@@ -132,7 +132,7 @@ Interface names are started with a capital letter. The rest of the name is writt
 > }
 > ```
 
-### enum
+### `enum`
 Enum names are written in [camelcase][L001]. Enum variables are written in [all caps][L003]. Each key in an enum needs to be on a separate line.
 
 > <picture>
@@ -163,7 +163,7 @@ Avoid using enums as presets for default values. Use objects instead. Always exp
 > export typeof TextType[keyof typeof textTypes]
 > ```
 
-### function
+### `function`
 Function names are written in [camelcase][L001]. If the function has more than one parameter or the parameter name exceeds the maximum [character limit](#character-limit) for a line then the line needs to be wrapped. The same rule also applies to the content of the function. Always specify a return value for the function. The return value is specified in the same form as for a [type](#types).
 
 #### Named function: `function functionName() {}`
@@ -207,6 +207,8 @@ A space is inserted between the parentheses and the arrow. A space is also inser
 >   //...
 > }
 > ```
+
+### `class`
 
 <br>
 
