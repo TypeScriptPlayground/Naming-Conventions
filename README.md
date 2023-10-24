@@ -125,7 +125,7 @@ If you declare a variable whose content does not change, then this variable is w
 > </picture><br>
 >
 > ```ts
-> const URL = 'https://example.com';
+> const API_ENDPOINT = 'https://api.example.com';
 > ```
 
 ### `interface`
