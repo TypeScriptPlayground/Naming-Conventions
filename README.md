@@ -3,7 +3,6 @@
 [L003]: https://en.wikipedia.org/wiki/All_caps
 [L004]: https://en.wikipedia.org/wiki/Pascal_case
 
-[L010]: https://www.typescriptlang.org/docs/handbook/declaration-files/templates/module-d-ts.html
 [L011]: https://jsdoc.app/
 
 # Naming-Conventions
@@ -135,7 +134,7 @@ If you declare a variable whose content does not change, then this variable is w
 > ```
 
 ### `interface`
-Interface names are started with a capital letter. The rest of the name is written in [camelcase][L001]. Also known as [PascalCase][L004]. Variable definitions are separated by a comma. Interfaces are always exported in a [`.d.ts`][L010] file. Each key in an interface needs to be on a separate line.
+Interface names are started with a capital letter. The rest of the name is written in [camelcase][L001]. Also known as [PascalCase][L004]. Variable definitions are separated by a comma. Each key in an interface needs to be on a separate line.
 
 > <picture>
 >   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/example.svg">
